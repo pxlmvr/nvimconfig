@@ -1,0 +1,12 @@
+{
+  "elixir-tools.nvim": { "branch": "main", "commit": "163522196c962fa87cac0df2a0d1ad332e1e0755" },
+  "lazy.nvim": { "branch": "main", "commit": "aedcd79811d491b60d0a6577a9c1701063c2a609" },
+  "nvim-lspconfig": { "branch": "master", "commit": "ac530dfb97e51d82e3b0a7cddbf7a4a7c4c10ff8" },
+  "nvim-treesitter": { "branch": "master", "commit": "95125827758ee49a398cce05750dc9563ee3a23d" },
+  "nvim-web-devicons": { "branch": "master", "commit": "aaec87dbdaa776bfa0a13c8694bec9bcb7454719" },
+  "oil.nvim": { "branch": "master", "commit": "bf753c3e3f8736939ad5597f92329dfe7b1df4f5" },
+  "plenary.nvim": { "branch": "master", "commit": "4f71c0c4a196ceb656c824a70792f3df3ce6bb6d" },
+  "telescope.nvim": { "branch": "master", "commit": "d90956833d7c27e73c621a61f20b29fdb7122709" },
+  "terminal.nvim": { "branch": "master", "commit": "764b7c137512bcfba2e45cf3e25c08a9f4d3b733" },
+  "typescript-tools.nvim": { "branch": "master", "commit": "c43d9580c3ff5999a1eabca849f807ab33787ea7" }
+}
