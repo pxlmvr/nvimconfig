@@ -8,7 +8,6 @@ return {
     local elixirls = require("elixir.elixirls")
 
     elixir.setup {
-      nextls = {enable = true},
       credo = {},
       elixirls = {
         enable = true,
@@ -16,6 +15,7 @@ return {
           dialyzerEnabled = false,
           enableTestLenses = false,
         },
+        tag = "v0.19.0",
         on_attach = function(client, bufnr)
           vim.keymap.set("n", "<space>fp", ":ElixirFromPipe<cr>", { buffer = true, noremap = true })
           vim.keymap.set("n", "<space>tp", ":ElixirToPipe<cr>", { buffer = true, noremap = true })

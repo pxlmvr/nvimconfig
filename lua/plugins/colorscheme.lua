@@ -1,0 +1,3 @@
+return {
+  {"jqno/tranquility.nvim"}
+}
