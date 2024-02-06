@@ -1,3 +1,3 @@
 return {
-  {"jqno/tranquility.nvim"}
+  {"rebelot/kanagawa.nvim", lazy = false, priority = 1000}
 }

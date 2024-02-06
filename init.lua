@@ -32,9 +32,6 @@ vim.opt.rtp:prepend(lazypath)
 -- Plugins are listed in ~/.config/nvim/lua/plugins.lua
 require("lazy").setup("plugins")
 
--- Color scheme
-vim.cmd[[colorscheme tranquil-dracula]]
-
 -- Configure lspconfig
 local lspconfig = require('lspconfig')
 
@@ -61,3 +58,6 @@ vim.keymap.set("n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>",{})
 vim.keymap.set("n", "<leader>ca", "<cmd>lua vim.lsp.buf.code_action()<CR>",{})
 vim.keymap.set("v", "<leader>ca", "<cmd>lua vim.lsp.buf.range_code_action()<CR>",{})
 vim.keymap.set("n", "<leader>cl", "<cmd>lua vim.lsp.codelens.run()<CR>",{})
+
+-- Color scheme
+vim.cmd("colorscheme kanagawa")
