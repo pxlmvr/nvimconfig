@@ -67,6 +67,9 @@ vim.keymap.set("n", "<leader>ca", "<cmd>lua vim.lsp.buf.code_action()<CR>",{})
 vim.keymap.set("v", "<leader>ca", "<cmd>lua vim.lsp.buf.range_code_action()<CR>",{})
 vim.keymap.set("n", "<leader>cl", "<cmd>lua vim.lsp.codelens.run()<CR>",{})
 
+-- Show error
+vim.keymap.set("n", "<leader>e", "<cmd>lua vim.diagnostic.open_float(0, {scope=\"line\"})<CR>", {})
+
 -- Color scheme
 vim.cmd("colorscheme kanagawa")
 
